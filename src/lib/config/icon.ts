@@ -8,19 +8,14 @@ export const favicon: Icon = {
 }
 
 export const any: { [key: number]: Icon } = {
-  180: {
-    src: site.protocol + site.domain + '/assets/any@180.png',
-    sizes: '180x180',
-    type: 'image/png'
-  },
   192: {
     src: site.protocol + site.domain + '/assets/any@192.png',
     sizes: '192x192',
     type: 'image/png'
   },
-  512: {
-    src: site.protocol + site.domain + '/assets/any@512.png',
-    sizes: '512x512',
+  384: {
+    src: site.protocol + site.domain + '/assets/any@384.png',
+    sizes: '384x384',
     type: 'image/png'
   }
 }

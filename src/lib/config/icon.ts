@@ -7,21 +7,21 @@ export const favicon: Icon = {
   type: 'image/png'
 }
 
-export const any: { [key: number]: Icon } = {
-  192: {
-    src: site.protocol + site.domain + '/assets/any@192.png',
-    sizes: '192x192',
-    type: 'image/png'
-  },
-  384: {
-    src: site.protocol + site.domain + '/assets/any@384.png',
-    sizes: '384x384',
-    type: 'image/png'
-  }
-}
+// export const any: { [key: number]: Icon } = {
+//   192: {
+//     src: site.protocol + site.domain + '/assets/any@192.png',
+//     sizes: '192x192',
+//     type: 'image/png'
+//   },
+//   384: {
+//     src: site.protocol + site.domain + '/assets/any@384.png',
+//     sizes: '384x384',
+//     type: 'image/png'
+//   }
+// }
 
 export const maskable: { [key: number]: Icon } = {
-  512: {
+  1024: {
     src: site.protocol + site.domain + '/assets/prof.jpg',
     sizes: '1024x1024',
     type: 'image/jpg'

@@ -27,11 +27,11 @@ export const footer: FooterConfig = {
     {
       text: 'Instagram',
       link: 'https://www.instagram.com/pro.palestine32/'
+    },
+    {
+      text: 'Github',
+      link: 'https://github.com/Pro-Palestine'
     }
-    // {
-    //   text: 'Sitemap',
-    //   link: '/sitemap.xml'
-    // }
   ]
 }
 

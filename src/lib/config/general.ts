@@ -24,10 +24,10 @@ export const header: HeaderConfig = {
 
 export const footer: FooterConfig = {
   nav: [
-    // {
-    //   text: 'Feed',
-    //   link: '/atom.xml'
-    // },
+    {
+      text: 'Instagram',
+      link: 'https://www.instagram.com/pro.palestine32/'
+    }
     // {
     //   text: 'Sitemap',
     //   link: '/sitemap.xml'

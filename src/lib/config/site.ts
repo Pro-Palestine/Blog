@@ -8,7 +8,7 @@ export const site: SiteConfig = {
   lang: 'en-US',
   description: '',
   author: {
-    avatar: '/assets/maskable@512.png',
+    avatar: '/assets/prof.jpg',
     name: 'Hany',
     status: '🇵🇸',
     bio: 'A computer science Paki student trying to do something. This site is under production'

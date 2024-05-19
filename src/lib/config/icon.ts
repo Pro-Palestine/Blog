@@ -21,7 +21,7 @@ export const any: { [key: number]: Icon } = {
 }
 
 export const maskable: { [key: number]: Icon } = {
-  1024: {
+  512: {
     src: site.protocol + site.domain + '/assets/prof.jpg',
     sizes: '1024x1024',
     type: 'image/jpg'

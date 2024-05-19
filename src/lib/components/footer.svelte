@@ -23,15 +23,10 @@
         {/each}
         <br />
       {/if}
-      <br />
-      Built using
-      <a
-        rel="noopener noreferrer external"
-        target="_blank"
-        class="tooltip tooltip-secondary hover:text-secondary"
-        href="https://github.com/importantimport/urara">
-        Urara
-      </a>
+      Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
+        ? `${footerConfig.since} - ${new Date().toJSON().substring(0, 4)}`
+        : new Date().toJSON().substring(0, 4)}
+      {site.author.name}
       {#if footerConfig.html}
         <br />
         {@html footerConfig.html}
